@@ -1,4 +1,3 @@
-from pathlib import Path
 from setuptools import setup
 
 
@@ -9,7 +8,7 @@ with open("README.md", 'r') as readme:
 
 setup(
     name="bibverse",
-    version="1.1",
+    version="1.2",
     description="A simple cli tool to get the verse of the day",
     long_description=long_description,
     long_description_content_type="text/markdown",
