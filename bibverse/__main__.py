@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-if __name__ == "__main__":
+def main():
     text = requests.get("https://www.verseoftheday.com/").text
     soup = BeautifulSoup(text, "html.parser")
     result = soup.find_all("div", "bilingual-left")[0].get_text()
