@@ -9,7 +9,7 @@ with open("README.md", 'r') as readme:
 
 setup(
     name="bibverse",
-    version="1.0",
+    version="1.1",
     description="A simple cli tool to get the verse of the day",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -29,7 +29,7 @@ setup(
     platforms=["any"],
     py_modules=["bibverse"],
     entry_points={
-        "consol_scripts": ["bibverse=verse.verse:main"]
+        "console_scripts": ["bibverse=bibverse.__main__:main"]
     },
     classifiers=[
         "Development Status :: 5 - Production/Stable",
