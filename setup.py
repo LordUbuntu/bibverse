@@ -8,17 +8,17 @@ with open("README.md", 'r') as readme:
 
 
 setup(
-    name="verse",
+    name="bibverse",
     version="1.0",
     description="A simple cli tool to get the verse of the day",
     long_description=long_description,
-    long_description_content_type="text/makdown",
+    long_description_content_type="text/markdown",
     url="https://github.com/LordUbuntu/verse",
     keywords=["python", "bible", "verse", "cli"],
     license="MIT",
     author="Jacobus Burger",
     author_email="therealjacoburger@gmail.com",
-    packages=["verse"],
+    packages=["bibverse"],
     install_requires=[
         "beautifulsoup4==4.12.2", "bs4==0.0.1", "requests==2.30.0"
     ],
@@ -27,9 +27,9 @@ setup(
     },
     python_requires=">=3.10",
     platforms=["any"],
-    py_modules=["verse"],
+    py_modules=["bibverse"],
     entry_points={
-        "consol_scripts": ["verse=verse.verse:main"]
+        "consol_scripts": ["bibverse=verse.verse:main"]
     },
     classifiers=[
         "Development Status :: 5 - Production/Stable",
