@@ -8,12 +8,12 @@ with open("README.md", 'r') as readme:
 
 setup(
     name="bibverse",
-    version="1.2",
-    description="A simple cli tool to get the verse of the day",
+    version="1.3",
+    description="A simple cli tool to get the bible verse of the day",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/LordUbuntu/verse",
-    keywords=["python", "bible", "verse", "cli"],
+    url="https://github.com/LordUbuntu/bibverse",
+    keywords=["python", "bible", "cli"],
     license="MIT",
     author="Jacobus Burger",
     author_email="therealjacoburger@gmail.com",
@@ -32,10 +32,10 @@ setup(
     },
     classifiers=[
         "Development Status :: 5 - Production/Stable",
-        "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3.10",
         "Operating System :: OS Independent",
         "Topic :: Utilities",
         "Environment :: Console",
+        "License :: OSI Approved :: MIT License",
     ]
 )
