@@ -19,7 +19,9 @@ setup(
     author="Jacobus Burger",
     author_email="therealjacoburger@gmail.com",
     packages=["verse"],
-    install_requires=["beautifulsoup4==4.11.1", "requests==2.28.2"],
+    install_requires=[
+        "beautifulsoup4==4.12.2", "bs4==0.0.1", "requests==2.30.0"
+    ],
     extras_require={
         "dev": ["pytest>=7.2", "twine>=4.0.2"],
     },
