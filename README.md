@@ -7,4 +7,4 @@ Just type `verse` on the command line one the package is installed and you'll ge
 
 # Installation
 
-Installing the package is simple, just run `pip install bibleverse` and make sure the binary is on your path. One that's done, it's as simple as running the program and getting the verse of the day. Since the output is text, you could even pipe it to other programs like cowsay!
+Installing the package is simple, just run `pip install bibverse` and make sure the binary is on your path. One that's done, it's as simple as running the program and getting the verse of the day. Since the output is text, you could even pipe it to other programs like cowsay!
